@@ -1,0 +1,8 @@
+frontend/
+.git/
+*.md
+.gitignore
+.railwayignore
+__pycache__/
+*.pyc
+backend/temp/

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.env.local
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+backend/temp/
+*.mp3
+*.mp4
+.DS_Store
+.vscode/

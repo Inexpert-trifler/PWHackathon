@@ -25,7 +25,7 @@
 
 ---
 
-## 🏆 Built for PW Hackathon 2025
+## 🏆 Built for PW Hackathon 2026
 
 > **Team Stack Masters** presents an AI-powered learning platform designed specifically for JEE aspirants. We built a full-stack intelligent system that solves doubts, analyzes lectures, generates mock tests, and creates personalized study plans — all powered by cutting-edge AI.
 

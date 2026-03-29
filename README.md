@@ -367,7 +367,7 @@ Open `http://localhost:5173` 🎉
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=6C47FF&center=true&vCenter=true&multiline=true&repeat=true&width=500&height=80&lines=Built+with+❤️+by+Team+Stack+Masters;PW+Hackathon+2025+%7C+Stack+Masters;Smarter+Prep.+Faster+Results.+🚀" alt="Footer Typing" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=3000&pause=1000&color=6C47FF&center=true&vCenter=true&width=500&lines=Built+with+%E2%9D%A4%EF%B8%8F+by+Team+Stack+Masters;PW+Hackathon+2025;Smarter+Prep.+Faster+Results." alt="Footer Typing" />
 
 <br/><br/>
 

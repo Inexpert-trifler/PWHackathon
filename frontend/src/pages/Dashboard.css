@@ -1,0 +1,256 @@
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* ── Hero ── */
+.dash-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+  text-align: center;
+  padding: 40px 0 0;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.hero-subtext {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+/* Tip Banner */
+.tip-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  background: #fefce8;
+  border: 1px solid #fde68a;
+  border-radius: 16px;
+  padding: 18px 24px;
+  max-width: 680px;
+  width: 100%;
+  text-align: left;
+}
+
+.tip-icon { font-size: 22px; flex-shrink: 0; margin-top: 2px; }
+
+.tip-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: #92400e;
+  margin-bottom: 4px;
+}
+
+.tip-text {
+  font-size: 14px;
+  color: #78350f;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Section Label ── */
+.section-label {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+/* ── Feature Cards ── */
+.features-section { display: flex; flex-direction: column; }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 640px) {
+  .features-grid { grid-template-columns: 1fr; }
+  .hero-title { font-size: 2rem; }
+  .how-steps { flex-direction: column; }
+  .how-divider { width: 2px; height: 32px; margin: 0 auto; }
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 22px 20px;
+  border-radius: 18px;
+  text-decoration: none;
+  border: 1.5px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.feature-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+.feature-card:hover .fc-arrow { transform: translateX(4px); }
+
+.fc-purple { background: #f5f3ff; border-color: #ede9fe; }
+.fc-amber  { background: #fffbeb; border-color: #fef3c7; }
+.fc-green  { background: #f0fdf4; border-color: #dcfce7; }
+.fc-blue   { background: #eff6ff; border-color: #dbeafe; }
+
+.fc-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.fc-purple .fc-icon { background: #ede9fe; color: #6c47ff; }
+.fc-amber  .fc-icon { background: #fef3c7; color: #d97706; }
+.fc-green  .fc-icon { background: #dcfce7; color: #16a34a; }
+.fc-blue   .fc-icon { background: #dbeafe; color: #2563eb; }
+
+.fc-content { flex: 1; }
+.fc-content h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 4px;
+}
+.fc-content p {
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.fc-arrow {
+  color: #bbb;
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+/* ── How It Works ── */
+.how-section { display: flex; flex-direction: column; }
+
+.how-steps {
+  display: flex;
+  align-items: flex-start;
+  gap: 0;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+}
+
+.how-step {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 0 16px;
+}
+
+.step-number {
+  font-size: 11px;
+  font-weight: 800;
+  color: #ddd;
+  letter-spacing: 1px;
+}
+
+.step-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.how-step h4 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.how-step p {
+  font-size: 12px;
+  color: #888;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.how-divider {
+  width: 40px;
+  height: 1.5px;
+  background: linear-gradient(90deg, #e0e0e0, #e0e0e0);
+  flex-shrink: 0;
+  align-self: center;
+  margin-top: 28px;
+}
+
+/* ── Quick Start Banner ── */
+.quick-start-banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #6c47ff 0%, #a78bfa 100%);
+  border-radius: 20px;
+  padding: 32px 36px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.qs-left h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 6px;
+}
+
+.qs-left p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.8);
+  margin: 0;
+}
+
+.qs-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 28px;
+  background: #fff;
+  color: #6c47ff;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.qs-btn:hover {
+  background: #f0ebff;
+  transform: translateY(-1px);
+}

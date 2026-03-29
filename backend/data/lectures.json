@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "topic": "Ohm's Law",
+    "content": "Ohm's Law explains the relation between voltage, current, and resistance. It tells us that current increases when voltage increases and decreases when resistance increases.",
+    "timestamp": "2026-03-25T10:00:00Z"
+  },
+  {
+    "id": 2,
+    "topic": "Kirchhoff's Law",
+    "content": "Kirchhoff's Laws help us study complex circuits. One law tracks current at a junction, and the other tracks voltage around a closed loop.",
+    "timestamp": "2026-03-25T10:15:00Z"
+  },
+  {
+    "id": 3,
+    "topic": "Current Electricity",
+    "content": "Current electricity is the flow of electric charge through a conductor. It is commonly measured in amperes and powers many electrical devices.",
+    "timestamp": "2026-03-25T10:30:00Z"
+  },
+  {
+    "id": 4,
+    "topic": "Voltage",
+    "content": "Voltage is the electrical pressure that pushes charges through a circuit. A higher voltage can drive more current if resistance stays the same.",
+    "timestamp": "2026-03-25T10:45:00Z"
+  },
+  {
+    "id": 5,
+    "topic": "Resistance",
+    "content": "Resistance is the property that opposes the flow of current in a circuit. Materials with high resistance allow less current to pass through.",
+    "timestamp": "2026-03-25T11:00:00Z"
+  }
+]

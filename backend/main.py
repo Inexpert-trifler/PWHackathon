@@ -1,18 +1,19 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from backend.routes.doubt import router as doubt_router
-from backend.routes.lecture import router as lecture_router
-from backend.routes.plan import router as plan_router
-from backend.routes.performance import router as performance_router
-from backend.routes.search import router as search_router
-from backend.routes.test import router as test_router
+from routes.doubt import router as doubt_router
+from routes.lecture import router as lecture_router
+from routes.plan import router as plan_router
+from routes.performance import router as performance_router
+from routes.search import router as search_router
+from routes.test import router as test_router
 
 app = FastAPI(title="AI Learning Platform API")
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "*",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
     ],

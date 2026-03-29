@@ -1,8 +1,8 @@
 from fastapi import APIRouter, HTTPException, UploadFile, File
 from pydantic import BaseModel, Field
 
-from backend.services.ai_json_service import generate_structured_json
-from backend.services.lecture_service import process_lecture_video
+from services.ai_json_service import generate_structured_json
+from services.lecture_service import process_lecture_video
 
 router = APIRouter()
 

@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel, Field
-from backend.services.ai_json_service import generate_structured_json
+from services.ai_json_service import generate_structured_json
 
 router = APIRouter()
 

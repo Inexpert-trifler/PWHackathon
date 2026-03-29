@@ -2,7 +2,7 @@ import json
 import re
 from typing import Any
 
-from backend.services.ai_service import generate_answer
+from services.ai_service import generate_answer
 
 
 def _extract_json_block(raw: str) -> Any:

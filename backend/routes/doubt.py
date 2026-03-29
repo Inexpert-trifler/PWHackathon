@@ -1,7 +1,7 @@
 import json
 import re
 from fastapi import APIRouter
-from backend.services.ai_service import generate_answer
+from services.ai_service import generate_answer
 
 router = APIRouter()
 

@@ -45,8 +45,7 @@ export default function Navbar() {
     { path: '/ask-doubt', label: 'Ask Doubt' },
     { path: '/lecture-search', label: 'Lecture Search' },
     { path: '/study-plan', label: 'Study Plan' },
-    { path: '/roadmap', label: 'Roadmap' },
-    { path: '/test', label: ' Mock Test' },
+    { path: '/test', label: '🧠 Mock Test' },
   ]
 
   // Close popup on outside click

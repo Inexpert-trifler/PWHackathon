@@ -7,7 +7,6 @@ from routes.plan import router as plan_router
 from routes.performance import router as performance_router
 from routes.search import router as search_router
 from routes.test import router as test_router
-from routes.roadmap import router as roadmap_router
 
 app = FastAPI(title="AI Learning Platform API")
 
@@ -36,4 +35,3 @@ app.include_router(performance_router, prefix=API_PREFIX, tags=["performance"])
 app.include_router(lecture_router, prefix=API_PREFIX + "/lecture", tags=["lecture"])
 app.include_router(search_router, prefix=API_PREFIX, tags=["search"])
 app.include_router(test_router, prefix=API_PREFIX + "/test", tags=["test"])
-app.include_router(roadmap_router, prefix=API_PREFIX + "/roadmap", tags=["roadmap"])

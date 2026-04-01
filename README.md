@@ -33,7 +33,7 @@
 | **Performance Analytics** | Deep dive into your progress with beautiful visualizations. | 📊 |
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnhrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3Umaz0x/l41lTfWf91G4p3Zte/giphy.gif" width="400" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1eDl6NXg5eDl6NXg5eDl6NXg5eDl6NXg5eDl6NXg5eDl6NXg5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIw/giphy.gif" width="400" />
 </p>
 
 ---
@@ -61,17 +61,17 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Saransh" width="100px;" alt="Saransh"/><br />
+      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" width="100px;" alt="Saransh"/><br />
       <b>Saransh</b><br />
       <sub>Lead Developer</sub>
     </td>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Bhavya" width="100px;" alt="Bhavya"/><br />
+      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Jace" width="100px;" alt="Bhavya"/><br />
       <b>Bhavya</b><br />
       <sub>UI/UX Wizard</sub>
     </td>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Shruti" width="100px;" alt="Shruti"/><br />
+      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Aria" width="100px;" alt="Shruti"/><br />
       <b>Shruti</b><br />
       <sub>AI Specialist</sub>
     </td>
@@ -110,5 +110,5 @@
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnhrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3Umaz0x/3o7TKDkDbIDJieKbVm/giphy.gif" width="200" />
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3N4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3Umaz0x/3o7TKDkDbIDJieKbVm/giphy.gif" width="200" />
 </p>

@@ -1,4 +1,4 @@
-# <p align="center">🚀 PW AI LEARNING PLATFORM - *SackMaster Edition* 🚀</p>
+# <p align="center">🚀 PW AI LEARNING PLATFORM - *StackMaster Edition* 🚀</p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJmZzZkN3N4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3Umaz0x/3o7TKSjPOnRNweV9e/giphy.gif" width="600" />

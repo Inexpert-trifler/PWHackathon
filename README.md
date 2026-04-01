@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Made%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Styled%20with-Vanilla%20CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Team-SackMaster-FF5733?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Team-StackMaster-FF5733?style=for-the-badge" />
 </p>
 
 ---

@@ -4,6 +4,7 @@ import subprocess
 import requests
 import json
 from pathlib import Path
+import imageio_ffmpeg
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -37,8 +38,10 @@ def extract_audio(video_path: Path) -> Path:
     audio_filename = video_path.stem + ".mp3"
     audio_path = AUDIOS_DIR / audio_filename
 
+    ffmpeg_path = imageio_ffmpeg.get_ffmpeg_exe()
+
     command = [
-        "ffmpeg",
+        ffmpeg_path,
         "-i", str(video_path),
         "-vn",
         "-ar", "16000",

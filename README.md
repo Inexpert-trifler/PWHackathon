@@ -1,7 +1,7 @@
 # <p align="center">🚀 PW AI LEARNING PLATFORM - *Stack Masters Edition* 🚀</p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJmZzZkN3N4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3Umaz0x/3o7TKSjPOnRNweV9e/giphy.gif" width="600" />
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlkdWhlM2NteG94Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Z3VseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIw/giphy.gif" width="600" />
 </p>
 
 ---
@@ -33,7 +33,7 @@
 | **Performance Analytics** | Deep dive into your progress with beautiful visualizations. | 📊 |
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHp1eDl6NXg5eDl6NXg5eDl6NXg5eDl6NXg5eDl6NXg5eDl6NXg5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIw/giphy.gif" width="400" />
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="400" />
 </p>
 
 ---
@@ -61,17 +61,17 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Felix&hair=short" width="100px;" alt="Saransh"/><br />
+      <img src="https://robohash.org/Saransh?set=set2" width="100px;" alt="Saransh"/><br />
       <b>Saransh</b><br />
       <sub>Lead Developer & AI Specialist</sub>
     </td>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Jace&hair=short" width="100px;" alt="Bhavya"/><br />
+      <img src="https://robohash.org/Bhavya?set=set2" width="100px;" alt="Bhavya"/><br />
       <b>Bhavya</b><br />
       <sub>UI/UX Master</sub>
     </td>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Lilly&hair=long" width="100px;" alt="Shruti"/><br />
+      <img src="https://robohash.org/Shruti?set=set4" width="100px;" alt="Shruti"/><br />
       <b>Shruti</b><br />
       <sub>Business Operations Lead</sub>
     </td>

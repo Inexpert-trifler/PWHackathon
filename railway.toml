@@ -1,5 +1,6 @@
 [build]
-# Auto-detect Dockerfile
+builder = "docker"
+dockerfilePath = "Dockerfile"
 
 [deploy]
 # Using Dockerfile's CMD

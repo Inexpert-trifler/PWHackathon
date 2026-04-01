@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Sparkles, CircleDot } from 'lucide-react'
 import { solveDoubt } from '../services/api'
+import { InlineMath, BlockMath } from 'react-katex'
+import 'katex/dist/katex.min.css'
 import './AskDoubt.css'
 
 export default function AskDoubt() {
@@ -11,6 +13,23 @@ export default function AskDoubt() {
   const [error, setError] = useState('')
 
   const subjects = ['Physics', 'Chemistry', 'Mathematics', 'Biology']
+
+  const renderFormula = (text) => {
+    if (!text) return null
+    
+    // Split text by LaTeX delimiters ($...$)
+    const parts = text.split(/(\$[^$]*\$)/)
+    
+    return parts.map((part, index) => {
+      // Check if this part is LaTeX math (between $ signs)
+      if (part.startsWith('$') && part.endsWith('$')) {
+        const math = part.slice(1, -1) // Remove $ signs
+        return <InlineMath key={index} math={math} />
+      } else {
+        return <span key={index}>{part}</span>
+      }
+    })
+  }
 
   const handleSolve = async () => {
     if (!question.trim()) return
@@ -83,8 +102,8 @@ export default function AskDoubt() {
 
           <div className="response-section">
             <span className="label-text">Formula / Derivation</span>
-            <div className="code-block typewriter-delay-1">
-              <code>{response.formula}</code>
+            <div className="formula-display typewriter-delay-1">
+              {renderFormula(response.formula)}
             </div>
           </div>
 

@@ -212,6 +212,30 @@
   border-top: 1px solid var(--border-color);
 }
 
+.formula-display {
+  background: var(--bg-app);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  overflow-x: auto;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.formula-display .katex {
+  font-size: 1.1rem !important;
+  margin: 0 2px;
+}
+
+.formula-display .katex-display {
+  margin: 16px 0 !important;
+}
+
+.formula-display span {
+  color: var(--text-dark);
+}
+
 .btn-small {
   padding: 8px 16px;
   font-size: 0.875rem;

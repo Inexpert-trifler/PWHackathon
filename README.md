@@ -1,4 +1,4 @@
-# <p align="center">🚀 PW AI LEARNING PLATFORM - *StackMaster Edition* 🚀</p>
+# <p align="center">🚀 PW AI LEARNING PLATFORM - *Stack Masters Edition* 🚀</p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGJmZzZkN3N4Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Zzlrem54Z3Umaz0x/3o7TKSjPOnRNweV9e/giphy.gif" width="600" />
@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Made%20with-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
   <img src="https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Styled%20with-Vanilla%20CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Team-StackMaster-FF5733?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Team-Stack%20Masters-FF5733?style=for-the-badge" />
 </p>
 
 ---
@@ -51,7 +51,7 @@
 
 ---
 
-### 👥 Meet The Legends: Team SackMaster
+### 👥 Meet The Legends: Team Stack Masters
 
 <p align="center">
   <b>The dream team behind the code.</b>
@@ -61,19 +61,19 @@
 <table>
   <tr>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Felix" width="100px;" alt="Saransh"/><br />
+      <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Felix&hair=short" width="100px;" alt="Saransh"/><br />
       <b>Saransh</b><br />
-      <sub>Lead Developer</sub>
+      <sub>Lead Developer & AI Specialist</sub>
     </td>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Jace" width="100px;" alt="Bhavya"/><br />
+      <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Jace&hair=short" width="100px;" alt="Bhavya"/><br />
       <b>Bhavya</b><br />
-      <sub>UI/UX Wizard</sub>
+      <sub>UI/UX Master</sub>
     </td>
     <td align="center">
-      <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Aria" width="100px;" alt="Shruti"/><br />
+      <img src="https://api.dicebear.com/7.x/pixel-art/svg?seed=Lilly&hair=long" width="100px;" alt="Shruti"/><br />
       <b>Shruti</b><br />
-      <sub>AI Specialist</sub>
+      <sub>Business Operations Lead</sub>
     </td>
   </tr>
 </table>
@@ -105,7 +105,7 @@
 ---
 
 <p align="center">
-  <b>Built with ❤️ by Team SackMaster</b><br/>
+  <b>Built with ❤️ by Team Stack Masters</b><br/>
   <i>Physics Wallah Hackathon 2026</i>
 </p>
 

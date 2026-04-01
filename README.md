@@ -1,7 +1,7 @@
 # <p align="center">🚀 PW AI LEARNING PLATFORM - *Stack Masters Edition* 🚀</p>
 
 <p align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHlkdWhlM2NteG94Zzlrem54Z3V4Z3R4Zzlrem54Z3V4Z3R4Z3VseCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIw/giphy.gif" width="600" />
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="600" />
 </p>
 
 ---

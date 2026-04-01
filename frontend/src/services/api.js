@@ -60,3 +60,6 @@ export const generateTest = async (topic, num_questions = 20, difficulty = 'medi
 
 export const analyzeTest = async (payload) =>
   apiPost('/api/test/analyze', payload)
+
+export const generateRoadmap = async (topic) =>
+  apiPost('/api/roadmap/generate', { topic })

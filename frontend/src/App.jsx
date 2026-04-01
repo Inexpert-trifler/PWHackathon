@@ -7,6 +7,7 @@ import LectureSearch from './pages/LectureSearch'
 import StudyPlan from './pages/StudyPlan'
 import MockTest from './pages/MockTest'
 import TestResults from './pages/TestResults'
+import Roadmap from './pages/Roadmap'
 
 function App() {
   const [loading, setLoading] = useState(false)
@@ -30,6 +31,7 @@ function App() {
           <Route path="/study-plan" element={<StudyPlan />} />
           <Route path="/test" element={<MockTest />} />
           <Route path="/test/results" element={<TestResults />} />
+          <Route path="/roadmap" element={<Roadmap />} />
         </Routes>
       </main>
     </div>

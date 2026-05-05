@@ -1,3 +1,9 @@
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+os.makedirs(os.path.join(BASE_DIR, "temp/videos"), exist_ok=True)
+os.makedirs(os.path.join(BASE_DIR, "temp/audios"), exist_ok=True)
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 

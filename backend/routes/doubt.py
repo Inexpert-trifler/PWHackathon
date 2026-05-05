@@ -8,19 +8,33 @@ router = APIRouter()
 
 # ✅ SAFE JSON EXTRACTION (FIXED)
 def _extract_json(raw: str):
+    # First, try to strip markdown code blocks
+    text = raw.strip()
+    if text.startswith("```"):
+        # find the first '{' and last '}'
+        start = text.find("{")
+        end = text.rfind("}")
+        if start != -1 and end != -1:
+            text = text[start:end+1]
     try:
-        return json.loads(raw)
+        return json.loads(text)
     except Exception:
         try:
-            # Extract JSON part from messy AI response
-            match = re.search(r"\{[\s\S]*\}", raw)
+            # Fallback: Extract JSON part from messy AI response
+            match = re.search(r"\{[\s\S]*\}", text)
             if match:
                 cleaned = match.group(0)
-
-                # Fix invalid escape characters
-                cleaned = cleaned.replace("\\", "\\\\")
-
-                return json.loads(cleaned)
+                # Only fix invalid escapes if necessary, but this often breaks LaTeX
+                # Let's just try to load it first
+                try:
+                    return json.loads(cleaned)
+                except:
+                    # If it fails, try to escape backslashes that aren't already escaped
+                    # This is risky for LaTeX but necessary for bad JSON
+                    cleaned = cleaned.replace("\\", "\\\\")
+                    # Fix double escaping that might have happened
+                    cleaned = cleaned.replace("\\\\\\\\", "\\\\")
+                    return json.loads(cleaned)
         except Exception:
             return None
 
@@ -47,16 +61,17 @@ def _safe_doubt_response(query: str, raw: str):
 def get_doubt(query: str):
 
     prompt = f"""
-You are an expert JEE/NEET tutor. Answer the student's doubt.
+You are an expert JEE/NEET tutor. Answer the student's doubt clearly and correctly.
 
 Return ONLY valid JSON with exactly these keys:
-- concept: string (1-2 lines)
-- formula: string (latex allowed)
-- explanation: string (step-by-step)
+- concept: string (1-2 lines summarizing the core concept)
+- formula: string (MUST be wrapped in $ tags, e.g. `$F = ma$`. If using LaTeX commands, escape them properly for JSON, e.g. `$\\frac{{1}}{{2}}$` or `$\\rightarrow$`)
+- explanation: string (step-by-step clear explanation)
 - relatedTopics: array of strings (3-6 items)
 
 Student doubt: {query}
 """.strip()
+
 
     try:
         raw = generate_answer(prompt)

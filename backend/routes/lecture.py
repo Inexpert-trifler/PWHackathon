@@ -84,6 +84,7 @@ class TopicTimestamp(BaseModel):
 class LectureUploadResponse(BaseModel):
     filename: str
     transcript: str
+    summary: str
     topics: list[TopicTimestamp]
 
 
@@ -112,5 +113,6 @@ async def upload_lecture(file: UploadFile = File(...)):
     return LectureUploadResponse(
         filename=file.filename,
         transcript=result["transcript"],
+        summary=result.get("summary", "Summary not available."),
         topics=result["topics"]
     )

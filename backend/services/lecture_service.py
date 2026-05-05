@@ -124,12 +124,14 @@ def extract_topics_with_ai(transcript: str) -> dict:
     prompt = f"""
 You are an expert lecture analyzer.
 Given the following lecture transcript, extract the main topics covered and assign approximate timestamp ranges.
+Also, provide an overall summary of the entire lecture.
 
 Transcript:
 {transcript}
 
 Return ONLY valid JSON with this exact schema:
 {{
+  "overall_summary": "A comprehensive summary of the entire video and what was studied in it.",
   "topics": [
     {{
       "title": "Topic name",
@@ -192,5 +194,6 @@ def process_lecture_video(file_bytes: bytes, filename: str) -> dict:
 
     return {
         "transcript": transcript,
+        "summary": topics_data.get("overall_summary", "Summary not available."),
         "topics": topics_data.get("topics", [])
     }

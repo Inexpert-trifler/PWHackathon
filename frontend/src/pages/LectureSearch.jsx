@@ -312,6 +312,28 @@ export default function LectureSearch() {
           {uploadResult && (
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
 
+              {/* Overall Summary */}
+              <div style={{
+                background: '#fff',
+                border: '1px solid #e8e8e8',
+                borderRadius: '16px',
+                padding: '24px'
+              }}>
+                <h3 style={{ fontWeight: '700', fontSize: '16px', marginBottom: '12px', color: '#6c47ff' }}>
+                  🧠 Overall Summary
+                </h3>
+                <p style={{
+                  color: '#333',
+                  fontSize: '15px',
+                  lineHeight: '1.6',
+                  background: '#faf9ff',
+                  padding: '16px',
+                  borderRadius: '10px'
+                }}>
+                  {uploadResult.summary || "Summary not available."}
+                </p>
+              </div>
+
               {/* Transcript */}
               <div style={{
                 background: '#fff',
